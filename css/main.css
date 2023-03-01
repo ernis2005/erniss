@@ -1,0 +1,41 @@
+*{margin: 0; padding: 0;}
+body{
+    position: relative;
+    z-index: 1;
+    font-family: sans-serif;
+    max-width: 100%;
+    background-color: black;
+}
+canvas{
+    position: fixed;
+    max-width: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+main{
+    position: absolute;
+    left: 0;
+top: 0;
+z-index: 3;
+width: 100%;
+font-size: 32px;
+color: #fff;
+padding: 5vw;
+display: block;
+flex-direction: column;
+}
+main section{
+    width: 50%;
+    padding: 100px 0px;
+    height: 100vh;
+}
+
+main section p {
+    padding: 5%;
+    background: rgba(0, 0, 0, 0.6);
+}
+main section:nth-child(2){margin-left: 50%;}
+main section:nth-child(4){margin-left: 50%;}
+main section:nth-child(5){margin-left: 50%; margin-top: 20%;}
