@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "tre",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tre"
+	}
+}
